@@ -14,7 +14,7 @@ const projects = [
       "Improved data accessibility for non-technical users"
     ],
     tech: ["Next.js", "Node.js", "OpenAI", "PostgreSQL"],
-    github: "https://github.com/doberoi21",
+    github: "https://github.com/doberoi21/ai-sql-assistant",
     demo: ""
   },
 
@@ -29,7 +29,7 @@ const projects = [
       "Improved overall user experience"
     ],
     tech: ["React", "Next.js", "JavaScript"],
-    github: "https://github.com/doberoi21",
+    github: "https://stalliontech.io/",
     demo: ""
   },
 
@@ -44,7 +44,7 @@ const projects = [
       "Built interactive UI using Streamlit"
     ],
     tech: ["Python", "Pandas", "Streamlit", "Machine Learning"],
-    github: "https://github.com/doberoi21",
+    github: "https://github.com/doberoi21/movie-recommender-app",
     demo: ""
   }
 ];

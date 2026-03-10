@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative pt-36 pb-32 overflow-hidden">
+    <section id="hero" className="relative min-h-[90vh] flex items-center">
       {/* HERO GRADIENT */}
       {/* <div className="absolute inset-0 -z-10">
 
@@ -49,10 +49,18 @@ export default function Hero() {
 
           {/* DESCRIPTION */}
 
-          <p className="mt-6 text-gray-600 dark:text-gray-400 text-lg leading-relaxed max-w-xl">
-            I build scalable web applications using React, TypeScript, Node.js
-            and Python. I enjoy building products that solve real-world problems
-            and deliver great user experiences.
+          <p className="mx-auto md:mx-0 mt-5 max-w-xl text-base sm:text-xl leading-relaxed text-gray-600 dark:text-gray-400">
+            Full Stack Software Engineer with 2+ years of experience developing
+            scalable web applications and backend services using{" "}
+            <span className="font-semibold text-purple-600 dark:text-purple-400">
+              {" "}
+              React, TypeScript, Node.js, and Python. {" "}
+            </span>
+            {/* Experienced in improving system performance, API reliability, and
+            deployment efficiency across production environments. <br /> */}
+            <br/>
+            Focused on writing clean, maintainable code and building practical,
+            production-ready systems.
           </p>
 
           {/* BUTTONS */}

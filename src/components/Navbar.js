@@ -52,13 +52,14 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "backdrop-blur-md bg-white/85 dark:bg-black/75 border-b border-gray-200 dark:border-white/10 shadow-sm"
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300
+${
+  scrolled
+    ? "backdrop-blur bg-white/80 dark:bg-black/70 border-b border-gray-200/50 shadow-sm"
+    : "bg-transparent"
+}`}
     >
-      <div className="mx-auto flex h-14 w-full max-w-6xl items-center justify-between px-4 sm:px-6">
+      <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-4 sm:px-6">
         <a
           href="#hero"
           className="text-base font-semibold tracking-tight text-gray-900 dark:text-white"
@@ -68,7 +69,7 @@ export default function Navbar() {
         </a>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-6 text-[13px] font-medium text-gray-700 dark:text-gray-200">
+        <div className="hidden md:flex items-center gap-6 text-[16px] font-medium text-gray-700 dark:text-gray-200">
           {links.map((link) => (
             <a
               key={link.name}
