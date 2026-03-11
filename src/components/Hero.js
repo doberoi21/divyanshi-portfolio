@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative min-h-[90vh] flex items-center">
+    <section id="hero" className="min-h-screen flex items-center pt-32 md:pt-24 px-6">
       {/* HERO GRADIENT */}
       {/* <div className="absolute inset-0 -z-10">
 
@@ -50,17 +50,23 @@ export default function Hero() {
           {/* DESCRIPTION */}
 
           <p className="mx-auto md:mx-0 mt-5 max-w-xl text-base sm:text-xl leading-relaxed text-gray-600 dark:text-gray-400">
-            Full Stack Software Engineer with 2+ years of experience developing
-            scalable web applications and backend services using{" "}
-            <span className="font-semibold text-purple-600 dark:text-purple-400">
-              {" "}
-              React, TypeScript, Node.js, and Python. {" "}
-            </span>
-            {/* Experienced in improving system performance, API reliability, and
-            deployment efficiency across production environments. <br /> */}
-            <br/>
-            Focused on writing clean, maintainable code and building practical,
-            production-ready systems.
+            <p>A Software Developer based in United States 🇺🇸</p>
+            <br />
+            <p className="text-lg md:text-xl  w-full mb-8 leading-relaxed">
+              I build scalable applications and AI-driven solutions. With a
+              proven track record in full-stack development, I focus on
+              delivering high-performance, seamless user experiences and robust
+              system architectures.
+            </p>
+            <p
+              className="text-lg md:text-xl font-semibold  w-full mb-16"
+              style={{ marginTop: "2%" }}
+            >
+              Currently looking for opportunities in <br/>
+              <span className="text-[#c67888]">Fullstack Development</span> ,{" "}
+              <span className="text-[#c67888]">Database Engineering</span> , and{" "}
+              <span className="text-[#c67888]">SDET</span>
+            </p>
           </p>
 
           {/* BUTTONS */}

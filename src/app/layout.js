@@ -4,7 +4,14 @@ import { ThemeProvider } from "next-themes";
 export const metadata = {
   title: "Divyanshi Oberoi",
   description: "Portfolio",
-  viewport: "width=device-width, initial-scale=1",
+  icons: {
+    icon: "/DO.png",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }) {
