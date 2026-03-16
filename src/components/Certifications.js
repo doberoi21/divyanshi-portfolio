@@ -4,22 +4,28 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const certifications = [
   {
+    title: "AI Fluency: Framework & Foundations",
+    org: "Anthropic",
+    logo: "/logos/anthropic.png",
+    link: "https://verify.skilljar.com/c/d39xc3i47fnp",
+  },
+  {
     title: "Introduction to Mobile Development",
     org: "Meta · Coursera",
     logo: "/logos/meta.png",
-    link: "#",
+    link: "https://www.coursera.org/account/accomplishments/verify/3394KBBSZHWQ",
   },
   {
     title: "Introduction to Data Analytics",
     org: "IBM Skills Network · Coursera",
     logo: "/logos/ibm.png",
-    link: "#",
+    link: "https://www.coursera.org/account/accomplishments/verify/A3DM6VV3A8E9",
   },
   {
-    title: "Introduction to Data Analytics",
-    org: "Simplilearn SkillUp",
-    logo: "/logos/simplilearn.png",
-    link: "#",
+    title: "Programming with JavaScript",
+    org: "Meta · Coursera",
+    logo: "/logos/meta.png",
+    link: "https://www.coursera.org/account/accomplishments/verify/YTM48P7FFL97?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course",
   },
 ];
 
