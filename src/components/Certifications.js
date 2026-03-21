@@ -10,6 +10,12 @@ const certifications = [
     link: "https://verify.skilljar.com/c/d39xc3i47fnp",
   },
   {
+    title: "Generative AI Fundamentals",
+    org: "Databricks",
+    logo: "/logos/databricks.png",
+    link: "https://credentials.databricks.com/de207454-c7db-42ca-8851-0e6128a8b09d#acc.ybsjvx7Y",
+  },
+  {
     title: "Introduction to Mobile Development",
     org: "Meta · Coursera",
     logo: "/logos/meta.png",
@@ -33,15 +39,11 @@ export default function Certifications() {
   return (
     <section id="certifications" className="py-24">
       <div className="max-w-6xl mx-auto px-6">
-
         {/* Section Title */}
-        <h2 className="text-3xl font-bold text-center mb-16">
-          Certifications
-        </h2>
+        <h2 className="text-3xl font-bold text-center mb-16">Certifications</h2>
 
         {/* Cards */}
         <div className="grid md:grid-cols-3 gap-8">
-
           {certifications.map((cert, i) => (
             <div
               key={i}
@@ -54,10 +56,8 @@ export default function Certifications() {
               hover:-translate-y-1
               duration-300"
             >
-
               {/* Top Row */}
               <div className="flex items-center justify-between mb-6">
-
                 <span className="text-3xl">🏆</span>
 
                 {cert.logo && (
@@ -67,7 +67,6 @@ export default function Certifications() {
                     className="h-7 opacity-80"
                   />
                 )}
-
               </div>
 
               {/* Title */}
@@ -91,11 +90,9 @@ export default function Certifications() {
                 View Certificate
                 <FaExternalLinkAlt size={12} />
               </a>
-
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );
