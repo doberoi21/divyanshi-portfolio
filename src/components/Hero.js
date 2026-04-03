@@ -91,7 +91,7 @@ export default function Hero() {
             {/* RESUME BUTTON */}
 
             <a
-              href="https://drive.google.com/file/d/1-ZbN0Ei_6XcEp2w1e_mdZTxGl97Tv1ge/view?usp=sharing"
+              href="https://drive.google.com/file/d/13IqJaD45utKQsseQSVientn3YhCtc50A/view?usp=sharing"
               target="_blank"
               className="
               px-5 py-2 rounded-lg
