@@ -7,12 +7,12 @@ export default function Experience() {
       location: "Chicago, IL",
       duration: "Jun 2025 – Nov 2025",
       points: [
-        "Architected and optimized React and TypeScript frontend serving 50K+ monthly users, reducing page load times by 35% and improving Core Web Vitals.",
-        "Developed backend services using Node.js and Python for system monitoring and operational data processing.",
-        "Migrated legacy modules from Python 2 to Python 3, improving runtime stability and maintainability.",
+        "Contributed to design and deployment of 3 Node.js microservices for the Uplynk ad delivery platform on AWS ECS, defining API contracts, data models, and service boundaries, enabling auto-scaling under peak advertiser traffic with zero downtime at launch.",
+        "Instrumented the Uplynk service fleet with AWS CloudWatch metrics, structured logging, and alerting pipelines; built real-time ops dashboards that surfaced root cause signals for latency spikes and error rate anomalies, reducing incident detection and resolution time by 40%.",
+        "Refactored and modernized the Uplynk React , TypeScript frontend, eliminating unnecessary re-renders, implementing lazy loading, and reducing bundle size, improving page load time by 35% and Core Web Vitals scores across the production dashboard.",
         "Designed Node.js microservices containerized with Docker and orchestrated using Kubernetes.",
-        "Implemented CI/CD pipelines automating build, test and deployment workflows, reducing manual release effort by 60%.",
-        "Wrote unit and integration tests using Jest and Playwright to improve deployment reliability."
+        "Built and maintained CI/CD deployment pipelines with GitHub Actions, integrating automated test gates, versioned rollouts, and rollback strategies to ensure operational readiness across 3 microservices, reducing manual release effort by 60%.",
+        "Authored unit and integration test suites with Jest and Playwright covering the ad delivery API flows and player UI components, enforcing code quality standards through peer review and catching regressions pre-deploy across 3 browser environments"
       ]
     },
 
@@ -22,10 +22,9 @@ export default function Experience() {
       location: "India",
       duration: "Feb 2023 – May 2024",
       points: [
-        "Developed frontend features using React, Electron.js and TypeScript integrated with Node.js APIs.",
-        "Built a dynamic in-app help system that reduced user support queries by 45%.",
-        "Created secure Adobe Premiere integrations using TypeScript and ExtendScript.",
-        "Collaborated with QA teams using automated testing and Jira tracking to improve release stability."
+        "Designed and shipped Node.js REST APIs and TypeScript/React components powering Evolphin's in app contextual help system, collaborating cross-functionally with product and support teams to reduce user support queries by 45%.",
+        "Built a secure Adobe Premiere plugin integration using ExtendScript and TypeScript, automating the media ingest pipeline end-to-end, eliminating manual handoffs and improving processing reliability and turnaround time for the video asset team.",
+        "Implemented Playwright-based end to end test suites covering critical release flows; partnered with QA to triage and resolve pre-release defects tracked in JIRA, measurably reducing post-release defect rates across quarterly deploys.",
       ]
     },
 
@@ -35,9 +34,8 @@ export default function Experience() {
       location: "India",
       duration: "Aug 2022 – Dec 2022",
       points: [
-        "Built responsive web applications using React.js and JavaScript for real-time video interaction.",
-        "Improved video playback performance using WebRTC and CSS optimizations.",
-        "Developed REST APIs using Node.js and Express.js integrated with PostgreSQL and MongoDB.",
+        "Built responsive web applications with React.js and JavaScript for real-time video interactions using WebRTC, delivering smoother playback experiences to thousands of concurrent users.",
+        "Developed REST APIs with Node.js and Express.js connecting to PostgreSQL and MongoDB, enabling reliable data exchange and reducing client-side errors.",
         "Improved data reliability and reduced client-side errors across applications."
       ]
     }
